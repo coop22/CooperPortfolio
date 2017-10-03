@@ -1,0 +1,58 @@
+/* CSS Document */
+
+.heading, .form , .submit {
+	text-align: center;
+}
+.heading {
+	font-family: Lobster;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	display: flex;
+	flex-flow: row-wrap;
+	justify-content: space-around;
+}
+	
+.body{
+	font-family: Pacifico;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	
+}
+body{
+	background-color: CornflowerBlue;
+}
+
+fieldset{
+	padding: 10 10 10 10 
+}
+.submit :hover{
+	color: #ee3e80;
+}
+.a :hover{
+	color: #ee3e80;
+}
+nav {
+	text-align: right;
+}
+img{
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px darkblue;
+}
+
+
+.container{
+	max-width: 768px;
+	justify-content: space-evenly;
+}
+
+@media (min-width: 320px;){
+	.container{
+		width: auto;
+	}
+}
